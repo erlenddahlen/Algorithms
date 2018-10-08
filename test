@@ -1,0 +1,6 @@
+struct Node
+    Dict{Char,Node}
+    Array{Int}
+end
+
+master = Node(master.children=Dict(), posi = Int64[])
